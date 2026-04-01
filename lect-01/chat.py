@@ -15,7 +15,7 @@ example
 input :What is your name ?
 Output:Yash ios my name
 
-"""
+"""     
 completion=client.chat.completions.create(
     model="GPT-4o-mini",
     response_format={"type":"json_object"},
